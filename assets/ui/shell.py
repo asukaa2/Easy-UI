@@ -1,3 +1,7 @@
+_ROOT = Path(__file__).resolve().parent / "ui"
+ import base64
+
+
 def stylesheet():
     css = (_ROOT / "shell.css").read_text(encoding="utf-8")
     font = _ROOT / "Syne-Variable.ttf"
