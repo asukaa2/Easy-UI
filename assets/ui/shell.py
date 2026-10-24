@@ -1,4 +1,4 @@
-body, .gradio-container {
+css = """body, .gradio-container {
   --app-bg: #09090b;
   --app-surface: #151517;
   --app-panel: #121214;
@@ -370,5 +370,6 @@ html { scrollbar-gutter: stable; }
 }
 @media (prefers-reduced-motion: reduce) { .applio-page button { transition: none; } .applio-page .progress-level::before, .applio-page .loading-spinner, .applio-page span.spinner, .applio-page .loader { animation: none !important; } }
 @media (max-width: 680px) {
-  .applio-output-row, .applio-f0-results { grid-template-columns: minmax(0, 1fr); }
-  }
+  .applio-output-row, .applio-f0-results { grid-template-columns: minmax(0, 1fr);
+
+  """
