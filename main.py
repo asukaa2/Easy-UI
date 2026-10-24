@@ -18,7 +18,7 @@ i18n = I18nAuto()
 import assets.themes.loadThemes as loadThemes
 
 rvc_theme = loadThemes.load_json() or "ParityError/Interstellar"
-
+css = app_css()
 with gr.Blocks(
     theme=rvc_theme, css=app_css, title="RVC AI Cover Maker", css="footer{display:none !important}"
 ) as RVCAICoverMaker:
