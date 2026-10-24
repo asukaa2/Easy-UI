@@ -1,5 +1,7 @@
+import base64
+from pathlib import Path
+
 _ROOT = Path(__file__).resolve().parent / "ui"
- import base64
 
 
 def stylesheet():
