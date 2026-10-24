@@ -4,7 +4,7 @@ from tabs.full_inference import full_inference_tab
 from tabs.download_model import download_model_tab
 from tabs.download_music import download_music_tab
 from tabs.settings import select_themes_tab
-from assets.ui.shell import css
+from assets.ui.shell import app_css
 
 now_dir = os.getcwd()
 sys.path.append(now_dir)
@@ -20,7 +20,7 @@ import assets.themes.loadThemes as loadThemes
 rvc_theme = loadThemes.load_json() or "ParityError/Interstellar"
 
 with gr.Blocks(
-    theme=rvc_theme, css=css, title="RVC AI Cover Maker", css="footer{display:none !important}"
+    theme=rvc_theme, css=app_css, title="RVC AI Cover Maker", css="footer{display:none !important}"
 ) as RVCAICoverMaker:
     gr.Markdown("# RVC AI Cover Maker")
     with gr.Tab(i18n("Full Inference")):
