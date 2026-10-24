@@ -32,10 +32,9 @@
 
 # Cloud
 
-| **Colab** | **Kaggle** |
-|:---:|:---:|
-| <a target="_blank" href="https://colab.research.google.com/github/asukaa2/Easy-UI/blob/main/assets/RVCAICoverMakerUI.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | 
-
+## Colab
+ <a target="_blank" href="https://colab.research.google.com/github/asukaa2/Easy-UI/blob/main/assets/RVCAICoverMakerUI.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> 
+ 
 Here's also an [English Guide for Google Colab & Kaggle UI](https://docs.aihub.gg/rvc/cloud/aicovermaker/)
 
 </div>
